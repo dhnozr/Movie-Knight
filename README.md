@@ -2,6 +2,12 @@
 
 <p>MovieKnight is a web application that allows users to explore movies, watch trailers, sign up for an account, sign in, and manage their favorite movies list.</p>
 
+# Video
+
+https://github.com/dhnozr/Movie-Knight/assets/115792609/9c65609d-ce25-4c59-a4d0-915986cbe683
+
+
+
 # Features
 
 - Browse popular movies and view detailed information.
