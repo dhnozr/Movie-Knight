@@ -1,6 +1,6 @@
 # Movie Knight
 
-<h1>MovieKnight is a web application that allows users to explore movies, watch trailers, sign up for an account, sign in, and manage their favorite movies list.</h1>
+<h2>MovieKnight is a web application that allows users to explore movies, watch trailers, sign up for an account, sign in, and manage their favorite movies list.</h2>
 
 # Features
 
