@@ -3,7 +3,7 @@ import { useStore } from '../store/store';
 import { useQuery } from 'react-query';
 import { supabase } from '../../supabaseClient';
 
-const apiKey = '4dcb22bfb7ea4969b494281eab09c2d6';
+const apiKey = import.meta.env.VITE_APP_TMDB_API_KEY;
 
 // filmler icin
 const tmdbMovieApi = axios.create({
@@ -14,8 +14,7 @@ const tmdbMovieApi = axios.create({
   },
   headers: {
     accept: 'application/json',
-    Authorization:
-      'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI0ZGNiMjJiZmI3ZWE0OTY5YjQ5NDI4MWVhYjA5YzJkNiIsInN1YiI6IjY1NWZhMThhYTA5N2RjMDBlMmRlNzA0MyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.4xH950Yyez4b-8Dn-xa5uJUKwjeFTwPPBdAvXLAIEnw',
+    Authorization: `Bearer ${import.meta.env.VITE_APP_TMDB_BEARER_TOKEN} `,
   },
 });
 
@@ -28,8 +27,7 @@ const tmdbTvApi = axios.create({
   },
   headers: {
     accept: 'application/json',
-    Authorization:
-      'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI0ZGNiMjJiZmI3ZWE0OTY5YjQ5NDI4MWVhYjA5YzJkNiIsInN1YiI6IjY1NWZhMThhYTA5N2RjMDBlMmRlNzA0MyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.4xH950Yyez4b-8Dn-xa5uJUKwjeFTwPPBdAvXLAIEnw',
+    Authorization: `Bearer ${import.meta.env.VITE_APP_TMDB_BEARER_TOKEN} `,
   },
 });
 
