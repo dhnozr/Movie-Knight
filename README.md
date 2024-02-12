@@ -25,3 +25,6 @@ https://github.com/dhnozr/Movie-Knight/assets/115792609/9c65609d-ce25-4c59-a4d0-
 - Zustand for state management.
 - Supabase for authentication and real-time database.
 - Axios for promise-based HTTP requests.
+
+# Live Demo
+https://movie-knght.netlify.app/
