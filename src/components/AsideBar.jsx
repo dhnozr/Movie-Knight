@@ -138,10 +138,14 @@ export const AsideBar = () => {
       <Footer variants={slideContainer} initial='hidden' animate='show' exit='exit'>
         <div>
           <m.li variants={slide}>
-            <Link>gitHub</Link>
+            <Link target='_blank' to={'https://github.com/dhnozr'}>
+              gitHub
+            </Link>
           </m.li>
           <m.li variants={slide}>
-            <Link>Linkedn</Link>
+            <Link target='_blank' to={'https://www.linkedin.com/in/duhanozarslan'}>
+              Linkedn
+            </Link>
           </m.li>
         </div>
       </Footer>
